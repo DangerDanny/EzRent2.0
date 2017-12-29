@@ -1,0 +1,17 @@
+print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
+print('           Welcome to EzRent!            ')
+print('                                         ')
+#Engine -------------------------------------------------------- 
+print('At the bottom of the monthly rent invoice') 
+print('The "Amount Due" is the only data needed ')
+print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
+print('                                         ')
+amountDue = float(input('Whats the amount?:'))
+print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
+dfOfAmount = amountDue - 1741.0
+print("Danny L = " + str(round((dfOfAmount/4)) + 547.00))
+print("James   = " + str(round((dfOfAmount/4)) + 547.00))
+print("Channon = " + str(round((dfOfAmount/4)) + 324.0))
+print("Danny B = " + str(round((dfOfAmount/4)) + 324.0))
+print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
+print('              Its too EZ!                ')
